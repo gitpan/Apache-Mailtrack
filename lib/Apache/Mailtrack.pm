@@ -1,7 +1,7 @@
 package Apache::Mailtrack;
 
 #
-# $Id: Mailtrack.pm,v 1.1.1.1 2002/07/31 13:10:44 fhe Exp $
+# $Id: Mailtrack.pm,v 1.2 2002/07/31 22:07:53 fhe Exp $
 #
 
 use 5.006;
@@ -13,7 +13,7 @@ use Apache::Request;
 use Data::Serializer;
 use DBI qw/:sql_types/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our %config;
 
 my $serializer;

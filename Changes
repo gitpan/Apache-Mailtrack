@@ -1,6 +1,8 @@
 Revision history for Perl extension Apache::Mailtrack.
 
-$Id: Changes,v 1.1.1.1 2002/07/31 13:10:44 fhe Exp $
+$Id: Changes,v 1.2 2002/07/31 22:09:22 fhe Exp $
 
 0.01  Tue Jul 23 23:51:53 2002
 	Inital revision.
+0.02  Tue Jul 31 23:55:23 2002
+	Added README
