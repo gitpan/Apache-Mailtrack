@@ -1,7 +1,7 @@
 package Apache::Mailtrack;
 
 #
-# $Id: Mailtrack.pm,v 1.2 2002/07/31 22:07:53 fhe Exp $
+# $Id: Mailtrack.pm,v 1.3 2003/02/03 12:14:57 florian Exp $
 #
 
 use 5.006;
@@ -13,7 +13,7 @@ use Apache::Request;
 use Data::Serializer;
 use DBI qw/:sql_types/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our %config;
 
 my $serializer;
@@ -322,7 +322,6 @@ file we should serve in case of emergency [default: C<mailtrack_default.jpg>]
 
 =back
 
-
 =head1 AUTHOR
 
 Florian Helmberger <fh@laudatio.com>
@@ -330,5 +329,16 @@ Florian Helmberger <fh@laudatio.com>
 =head1 SEE ALSO
 
 L<mod_perl>, L<Apache::Request>, L<Apache::Constants>, L<Data::Serializer>, L<YAML>, L<DBI>
+
+=head1 VERSION
+
+$Id: Mailtrack.pm,v 1.3 2003/02/03 12:14:57 florian Exp $
+
+=head1 COPYRIGHT
+
+Copyright (C) 2002 - 2003 Florian Helmberger. All Rights Reserved.
+This module is free software. It may be used, redistributed and/or 
+modified under the terms of the Perl Artistic License
+(see http://www.perl.com/perl/misc/Artistic.html).
 
 =cut

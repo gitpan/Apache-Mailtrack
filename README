@@ -1,4 +1,4 @@
-Apache::Mailtrack Version 0.02
+Apache::Mailtrack Version 0.03
 ==============================
 
 Apache::Mailtrack assists you in keeping track of the response
@@ -29,6 +29,7 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2002 Florian Helmberger.  All rights reserved, some
-wrongs reversed.  This module is distributed under the same terms
-as Perl itself.  Let me know if you actually find it useful.
+Copyright (C) 2002 - 2003 Florian Helmberger. All Rights Reserved.
+This module is free software. It may be used, redistributed and/or
+modified under the terms of the Perl Artistic License
+(see http://www.perl.com/perl/misc/Artistic.html).
